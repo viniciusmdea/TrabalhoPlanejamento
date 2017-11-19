@@ -7,7 +7,7 @@ Along with the algorithm and parser, two test domains are provided, Navigation a
 
 #### Usage
 ```
-python3 valueiteration.py navigation_instances\navigation01.net
+python3 valueiteration.py navigation_instances/navigation01.net
 ```
 
 #### Sample output
