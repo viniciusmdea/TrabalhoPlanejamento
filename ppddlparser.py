@@ -1,6 +1,6 @@
 import re
-from Action import Action
-from Problem import Problem
+from action import Action
+from problem import Problem
 
 def Parser(caminhoArquivo):
     #Lendo o arquivo
