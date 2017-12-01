@@ -3,11 +3,11 @@
 
 Value Iteration (VI) is a method of computing an optimal Markov Decison Process (MDP) policy and its value.
 
-Along with the algorithm and parser, two tests domains are provided, Navigation and Tireworld.
+Along with the algorithm and parser, two test domains are provided, Navigation and Tireworld.
 
 #### Usage
 ```
-python3 valueiteration.py navigation_instances\navigation01.net
+python3 valueiteration.py navigation_instances/navigation01.net
 ```
 
 #### Sample output
