@@ -6,10 +6,6 @@ class Action():
         self._cost = cost
 
     @property
-    def name(self):
-        return self._name
-
-    @property
     def fromState(self):
         return self._fromState
 

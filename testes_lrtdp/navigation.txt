@@ -1,0 +1,474 @@
+
+'Solving navigation01 ...'
+
+>> Policy
+robot-at-x04y01 -> move-west
+robot-at-x04y02 -> move-north
+broken-robot -> move-south
+robot-at-x03y01 -> move-west
+robot-at-x02y01 -> move-west
+robot-at-x01y01 -> move-north
+robot-at-x01y02 -> move-north
+robot-at-x01y03 -> move-north
+robot-at-x02y03 -> move-north
+robot-at-x02y02 -> move-north
+robot-at-x03y03 -> move-north
+robot-at-x03y02 -> move-north
+
+>> Time: parsing = 0.0000, solving = 0.1000
+
+'Solving navigation02 ...'
+
+>> Policy
+robot-at-x05y01 -> move-west
+robot-at-x05y02 -> move-north
+broken-robot -> move-south
+robot-at-x04y01 -> move-west
+robot-at-x03y01 -> move-west
+robot-at-x02y01 -> move-west
+robot-at-x01y01 -> move-north
+robot-at-x01y02 -> move-north
+robot-at-x01y03 -> move-east
+robot-at-x02y03 -> move-east
+robot-at-x02y02 -> move-north
+robot-at-x03y03 -> move-east
+robot-at-x04y03 -> move-east
+robot-at-x03y02 -> move-north
+
+>> Time: parsing = 0.0040, solving = 0.1280
+
+'Solving navigation03 ...'
+
+>> Policy
+robot-at-x05y01 -> move-west
+robot-at-x05y02 -> move-west
+broken-robot -> move-south
+robot-at-x04y01 -> move-west
+robot-at-x03y01 -> move-west
+robot-at-x02y01 -> move-west
+robot-at-x01y01 -> move-north
+robot-at-x01y02 -> move-north
+robot-at-x01y03 -> move-north
+robot-at-x01y04 -> move-east
+robot-at-x02y04 -> move-east
+robot-at-x03y02 -> move-north
+robot-at-x02y02 -> move-north
+robot-at-x02y03 -> move-north
+robot-at-x03y04 -> move-east
+robot-at-x04y04 -> move-east
+robot-at-x04y02 -> move-north
+robot-at-x03y03 -> move-north
+
+>> Time: parsing = 0.0040, solving = 0.1920
+
+'Solving navigation04 ...'
+
+>> Policy
+robot-at-x05y01 -> move-west
+robot-at-x05y02 -> move-west
+broken-robot -> move-south
+robot-at-x04y01 -> move-west
+robot-at-x03y01 -> move-west
+robot-at-x02y01 -> move-west
+robot-at-x01y01 -> move-north
+robot-at-x01y02 -> move-north
+robot-at-x01y03 -> move-north
+robot-at-x01y04 -> move-north
+robot-at-x01y05 -> move-north
+robot-at-x01y06 -> move-east
+robot-at-x02y06 -> move-east
+robot-at-x03y02 -> move-west
+robot-at-x02y02 -> move-north
+robot-at-x04y02 -> move-north
+robot-at-x04y03 -> move-west
+robot-at-x02y03 -> move-north
+robot-at-x02y04 -> move-north
+robot-at-x03y03 -> move-north
+robot-at-x03y04 -> move-north
+robot-at-x03y05 -> move-north
+robot-at-x03y06 -> move-east
+robot-at-x04y06 -> move-east
+robot-at-x02y05 -> move-north
+
+>> Time: parsing = 0.0040, solving = 0.3480
+
+'Solving navigation05 ...'
+
+>> Policy
+robot-at-x10y01 -> move-west
+robot-at-x10y02 -> move-north
+broken-robot -> move-south
+robot-at-x09y01 -> move-west
+robot-at-x08y01 -> move-west
+robot-at-x07y01 -> move-west
+robot-at-x06y01 -> move-north
+robot-at-x05y01 -> move-north
+robot-at-x04y01 -> move-west
+robot-at-x03y01 -> move-west
+robot-at-x02y01 -> move-west
+robot-at-x01y01 -> move-north
+robot-at-x02y02 -> move-north
+robot-at-x02y03 -> move-west
+robot-at-x01y03 -> move-north
+robot-at-x01y02 -> move-west
+robot-at-x03y02 -> move-north
+robot-at-x03y03 -> move-east
+robot-at-x04y03 -> move-north
+robot-at-x04y02 -> move-north
+robot-at-x05y03 -> move-north
+robot-at-x06y03 -> move-north
+robot-at-x05y02 -> move-north
+robot-at-x06y02 -> move-north
+robot-at-x07y03 -> move-north
+robot-at-x08y03 -> move-east
+robot-at-x07y02 -> move-north
+robot-at-x09y03 -> move-north
+robot-at-x08y02 -> move-north
+
+>> Time: parsing = 0.0040, solving = 0.3280
+
+'Solving navigation06 ...'
+
+>> Policy
+robot-at-x10y01 -> move-west
+robot-at-x10y02 -> move-west
+broken-robot -> move-south
+robot-at-x09y01 -> move-west
+robot-at-x08y01 -> move-west
+robot-at-x07y01 -> move-west
+robot-at-x06y01 -> move-west
+robot-at-x05y01 -> move-west
+robot-at-x04y01 -> move-west
+robot-at-x03y01 -> move-west
+robot-at-x02y01 -> move-north
+robot-at-x01y01 -> move-north
+robot-at-x03y02 -> move-north
+robot-at-x02y02 -> move-north
+robot-at-x01y02 -> move-north
+robot-at-x01y03 -> move-north
+robot-at-x01y04 -> move-north
+robot-at-x02y04 -> move-east
+robot-at-x04y02 -> move-north
+robot-at-x04y03 -> move-north
+robot-at-x04y04 -> move-east
+robot-at-x03y04 -> move-north
+robot-at-x05y02 -> move-north
+robot-at-x05y03 -> move-north
+robot-at-x05y04 -> move-north
+robot-at-x06y04 -> move-north
+robot-at-x06y02 -> move-north
+robot-at-x02y03 -> move-north
+robot-at-x03y03 -> move-north
+robot-at-x07y02 -> move-north
+robot-at-x07y03 -> move-north
+robot-at-x07y04 -> move-north
+robot-at-x08y04 -> move-north
+robot-at-x08y02 -> move-north
+robot-at-x09y02 -> move-north
+robot-at-x09y04 -> move-north
+robot-at-x06y03 -> move-north
+
+>> Time: parsing = 0.0040, solving = 0.7401
+
+'Solving navigation07 ...'
+
+>> Policy
+robot-at-x10y01 -> move-west
+robot-at-x10y02 -> move-west
+broken-robot -> move-south
+robot-at-x09y01 -> move-west
+robot-at-x08y01 -> move-west
+robot-at-x07y01 -> move-west
+robot-at-x06y01 -> move-west
+robot-at-x05y01 -> move-west
+robot-at-x04y01 -> move-west
+robot-at-x03y01 -> move-west
+robot-at-x02y01 -> move-west
+robot-at-x01y01 -> move-north
+robot-at-x03y02 -> move-west
+robot-at-x02y02 -> move-north
+robot-at-x01y02 -> move-north
+robot-at-x01y03 -> move-north
+robot-at-x01y04 -> move-north
+robot-at-x01y05 -> move-north
+robot-at-x02y05 -> move-east
+robot-at-x04y02 -> move-west
+robot-at-x04y03 -> move-west
+robot-at-x03y03 -> move-north
+robot-at-x02y03 -> move-east
+robot-at-x02y04 -> move-north
+robot-at-x03y05 -> move-north
+robot-at-x04y05 -> move-north
+robot-at-x05y02 -> move-north
+robot-at-x05y03 -> move-north
+robot-at-x06y02 -> move-north
+robot-at-x03y04 -> move-north
+robot-at-x07y02 -> move-north
+robot-at-x08y02 -> move-north
+robot-at-x08y03 -> move-west
+robot-at-x09y02 -> move-north
+robot-at-x09y03 -> move-north
+robot-at-x05y05 -> move-north
+robot-at-x06y05 -> move-north
+robot-at-x07y05 -> move-north
+robot-at-x08y05 -> move-north
+robot-at-x06y03 -> move-north
+robot-at-x06y04 -> move-north
+robot-at-x09y05 -> move-north
+robot-at-x04y04 -> move-north
+robot-at-x07y03 -> move-north
+
+>> Time: parsing = 0.0080, solving = 1.0041
+
+'Solving navigation08 ...'
+
+>> Policy
+robot-at-x20y01 -> move-west
+robot-at-x20y02 -> move-north
+broken-robot -> move-south
+robot-at-x19y01 -> move-west
+robot-at-x18y01 -> move-north
+robot-at-x17y01 -> move-north
+robot-at-x16y01 -> move-west
+robot-at-x15y01 -> move-west
+robot-at-x14y01 -> move-west
+robot-at-x13y01 -> move-west
+robot-at-x12y01 -> move-west
+robot-at-x11y01 -> move-west
+robot-at-x10y01 -> move-west
+robot-at-x09y01 -> move-west
+robot-at-x08y01 -> move-west
+robot-at-x07y01 -> move-west
+robot-at-x06y01 -> move-west
+robot-at-x16y02 -> move-north
+robot-at-x16y03 -> move-west
+robot-at-x15y03 -> move-west
+robot-at-x05y01 -> move-west
+robot-at-x04y01 -> move-west
+robot-at-x15y02 -> move-north
+robot-at-x14y03 -> move-west
+robot-at-x13y03 -> move-north
+robot-at-x12y02 -> move-north
+robot-at-x12y03 -> move-west
+robot-at-x11y03 -> move-north
+robot-at-x11y02 -> move-north
+robot-at-x10y03 -> move-west
+robot-at-x09y03 -> move-north
+robot-at-x13y02 -> move-north
+robot-at-x14y02 -> move-north
+robot-at-x17y03 -> move-west
+robot-at-x03y01 -> move-north
+robot-at-x02y01 -> move-north
+robot-at-x10y02 -> move-north
+robot-at-x08y03 -> move-north
+robot-at-x07y03 -> move-west
+robot-at-x07y02 -> move-north
+robot-at-x06y03 -> move-north
+robot-at-x05y03 -> move-west
+robot-at-x09y02 -> move-north
+robot-at-x08y02 -> move-north
+robot-at-x06y02 -> move-north
+robot-at-x04y03 -> move-west
+robot-at-x03y03 -> move-west
+robot-at-x05y02 -> move-north
+robot-at-x01y01 -> move-north
+robot-at-x03y02 -> move-north
+robot-at-x02y03 -> move-west
+robot-at-x01y03 -> move-north
+robot-at-x04y02 -> move-north
+robot-at-x02y02 -> move-west
+robot-at-x01y02 -> move-north
+robot-at-x17y02 -> move-north
+robot-at-x18y03 -> move-east
+robot-at-x19y03 -> move-east
+robot-at-x18y02 -> move-north
+robot-at-x19y02 -> move-north
+
+>> Time: parsing = 0.0080, solving = 1.0361
+
+'Solving navigation09 ...'
+
+>> Policy
+robot-at-x20y01 -> move-west
+robot-at-x20y02 -> move-north
+broken-robot -> move-south
+robot-at-x19y01 -> move-west
+robot-at-x18y01 -> move-west
+robot-at-x17y01 -> move-west
+robot-at-x16y01 -> move-west
+robot-at-x15y01 -> move-west
+robot-at-x14y01 -> move-west
+robot-at-x13y01 -> move-north
+robot-at-x12y01 -> move-north
+robot-at-x11y01 -> move-north
+robot-at-x10y01 -> move-west
+robot-at-x09y01 -> move-west
+robot-at-x08y01 -> move-west
+robot-at-x17y02 -> move-north
+robot-at-x16y02 -> move-north
+robot-at-x07y01 -> move-west
+robot-at-x06y01 -> move-west
+robot-at-x05y01 -> move-west
+robot-at-x04y01 -> move-west
+robot-at-x14y02 -> move-north
+robot-at-x12y02 -> move-north
+robot-at-x13y02 -> move-north
+robot-at-x10y02 -> move-north
+robot-at-x09y02 -> move-north
+robot-at-x08y02 -> move-north
+robot-at-x07y02 -> move-north
+robot-at-x06y02 -> move-north
+robot-at-x05y02 -> move-west
+robot-at-x03y01 -> move-north
+robot-at-x02y01 -> move-north
+robot-at-x11y02 -> move-north
+robot-at-x11y03 -> move-north
+robot-at-x11y04 -> move-north
+robot-at-x10y04 -> move-north
+robot-at-x15y02 -> move-north
+robot-at-x18y02 -> move-north
+robot-at-x01y01 -> move-south
+robot-at-x03y02 -> move-north
+robot-at-x02y02 -> move-west
+robot-at-x01y02 -> move-north
+robot-at-x01y03 -> move-north
+robot-at-x01y04 -> move-east
+robot-at-x02y04 -> move-north
+robot-at-x04y02 -> move-north
+robot-at-x04y03 -> move-north
+robot-at-x04y04 -> move-west
+robot-at-x03y04 -> move-north
+robot-at-x05y03 -> move-north
+robot-at-x05y04 -> move-west
+robot-at-x06y04 -> move-east
+robot-at-x03y03 -> move-west
+robot-at-x06y03 -> move-north
+robot-at-x07y04 -> move-north
+robot-at-x08y04 -> move-north
+robot-at-x02y03 -> move-west
+robot-at-x07y03 -> move-north
+robot-at-x19y02 -> move-north
+robot-at-x09y04 -> move-east
+robot-at-x08y03 -> move-north
+robot-at-x09y03 -> move-north
+robot-at-x12y04 -> move-north
+robot-at-x12y03 -> move-north
+robot-at-x13y04 -> move-north
+robot-at-x14y04 -> move-north
+robot-at-x10y03 -> move-north
+robot-at-x13y03 -> move-north
+robot-at-x15y04 -> move-north
+robot-at-x16y04 -> move-north
+robot-at-x17y03 -> move-north
+robot-at-x17y04 -> move-north
+robot-at-x18y04 -> move-north
+robot-at-x14y03 -> move-north
+robot-at-x15y03 -> move-north
+robot-at-x16y03 -> move-north
+robot-at-x19y04 -> move-north
+
+>> Time: parsing = 0.0080, solving = 2.3601
+
+'Solving navigation10 ...'
+
+>> Policy
+robot-at-x20y01 -> move-west
+robot-at-x20y02 -> move-north
+broken-robot -> move-south
+robot-at-x19y01 -> move-west
+robot-at-x18y01 -> move-west
+robot-at-x17y01 -> move-west
+robot-at-x16y01 -> move-west
+robot-at-x15y01 -> move-west
+robot-at-x14y01 -> move-west
+robot-at-x13y01 -> move-west
+robot-at-x12y01 -> move-west
+robot-at-x11y01 -> move-west
+robot-at-x10y01 -> move-west
+robot-at-x09y01 -> move-west
+robot-at-x08y01 -> move-north
+robot-at-x07y01 -> move-north
+robot-at-x06y01 -> move-north
+robot-at-x05y01 -> move-west
+robot-at-x04y01 -> move-north
+robot-at-x10y02 -> move-north
+robot-at-x09y02 -> move-north
+robot-at-x08y02 -> move-north
+robot-at-x07y02 -> move-north
+robot-at-x06y02 -> move-north
+robot-at-x05y02 -> move-north
+robot-at-x03y01 -> move-west
+robot-at-x02y01 -> move-north
+robot-at-x12y02 -> move-north
+robot-at-x11y02 -> move-north
+robot-at-x11y03 -> move-north
+robot-at-x10y03 -> move-north
+robot-at-x09y03 -> move-north
+robot-at-x13y02 -> move-north
+robot-at-x13y03 -> move-north
+robot-at-x12y03 -> move-north
+robot-at-x12y04 -> move-north
+robot-at-x12y05 -> move-north
+robot-at-x11y05 -> move-north
+robot-at-x14y02 -> move-north
+robot-at-x15y02 -> move-north
+robot-at-x15y03 -> move-north
+robot-at-x16y02 -> move-north
+robot-at-x17y02 -> move-north
+robot-at-x01y01 -> move-south
+robot-at-x03y02 -> move-north
+robot-at-x02y02 -> move-north
+robot-at-x01y02 -> move-south
+robot-at-x01y03 -> move-north
+robot-at-x04y02 -> move-north
+robot-at-x04y03 -> move-north
+robot-at-x03y03 -> move-north
+robot-at-x02y03 -> move-north
+robot-at-x02y04 -> move-north
+robot-at-x02y05 -> move-north
+robot-at-x01y05 -> move-north
+robot-at-x06y03 -> move-north
+robot-at-x01y04 -> move-north
+robot-at-x18y02 -> move-south
+robot-at-x07y03 -> move-north
+robot-at-x07y04 -> move-north
+robot-at-x07y05 -> move-north
+robot-at-x06y05 -> move-north
+robot-at-x05y03 -> move-north
+robot-at-x05y04 -> move-north
+robot-at-x05y05 -> move-north
+robot-at-x04y05 -> move-east
+robot-at-x03y05 -> move-north
+robot-at-x08y03 -> move-north
+robot-at-x08y04 -> move-north
+robot-at-x08y05 -> move-east
+robot-at-x09y05 -> move-north
+robot-at-x19y02 -> move-south
+robot-at-x06y04 -> move-north
+robot-at-x10y05 -> move-north
+robot-at-x03y04 -> move-north
+robot-at-x04y04 -> move-north
+robot-at-x20y03 -> move-west
+robot-at-x14y03 -> move-north
+robot-at-x14y04 -> move-north
+robot-at-x14y05 -> move-north
+robot-at-x13y05 -> move-north
+robot-at-x09y04 -> move-north
+robot-at-x15y04 -> move-north
+robot-at-x15y05 -> move-north
+robot-at-x16y05 -> move-north
+robot-at-x10y04 -> move-north
+robot-at-x16y03 -> move-north
+robot-at-x11y04 -> move-north
+robot-at-x17y05 -> move-north
+robot-at-x18y05 -> move-east
+robot-at-x17y03 -> move-east
+robot-at-x17y04 -> move-north
+robot-at-x19y05 -> move-north
+robot-at-x18y03 -> move-east
+robot-at-x18y04 -> move-north
+robot-at-x13y04 -> move-north
+robot-at-x19y03 -> move-north
+robot-at-x19y04 -> move-north
+
+>> Time: parsing = 0.0120, solving = 4.0323
