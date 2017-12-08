@@ -5,11 +5,12 @@ from util import Stack
 import numpy as np
 import time
 
+
 uptime = {}
 
 start_time = time.time()
 
-problem = Parser(sys.argv[1])
+problem = Parser("navigation_instances/navigation01.net")
 
 end_time = time.time()
 uptime['parsing'] = end_time - start_time
@@ -108,7 +109,7 @@ def checkSolved(s, resid): # state (String) s and Residual float value resid
             if ((orig == s) and (prob > 0)):
                 if not solvState[dest] and not openList.hasItem(dest) and not closedList.hasItem(dest):
                     openList.push(dest)
-    
+
     if rv:
         for i in range(len(closedList)):
             pastState = closedList.pop()

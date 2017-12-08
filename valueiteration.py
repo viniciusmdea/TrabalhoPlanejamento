@@ -24,12 +24,12 @@ start_time = time.time()
 for s in states:
     values[s] = states[s] # get state reward from 'states' dictionary
 
-n = 0 
+n = 0
 converge =  False
 threshold = 0.0
 while not converge:
     n += 1
-    val = dict() 
+    val = dict()
     for s in states:
         qvalue = -inf
         for a in actions:
